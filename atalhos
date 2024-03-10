@@ -1,0 +1,18 @@
+asdf install <name> <version>
+
+asdf global <name> <version> [<version>...]
+asdf shell <name> <version> [<version>...]
+asdf local <name> <version> [<version>...]
+# asdf global elixir 1.2.4
+
+asdf global <name> latest[:<version>]
+asdf local <name> latest[:<version>]
+# asdf global elixir latest
+
+source ~/.bashrc
+
+asdf uninstall <name> <version>
+\/ # limpar cache # pastas vazia ou sem utilidade
+sudo apt-get autoremove
+sudo apt-get clean
+sudo apt-get autoclean
